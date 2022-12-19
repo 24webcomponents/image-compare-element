@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>custom-element demo</title>
+    <title>image-compare demo</title>
   </head>
   <body>
-    <custom-element></custom-element>
+    <image-compare>
+      <img slot="left" width="500" alt="placeholder of a random cute animal" src="https://source.unsplash.com/featured/?cute,animal&left" />
+      <img slot="right" width="500" alt="placeholder of a random cute animal" src="https://source.unsplash.com/featured/?cute,animal&right" />
+    </image-compare>
 
     <script type="module">
-      // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
-      import '../src/custom-element.ts'
+      // import 'https://unpkg.com/@github/image-compare-boilerplate@latest/dist/image-compare.js'
+      import '../src/image-compare-element.ts'
     </script>
   </body>
 </html>
